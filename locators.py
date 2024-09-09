@@ -18,8 +18,7 @@ class Loсators():
     LOGO_STELLAR_BURGER = By.CLASS_NAME, "AppHeader_header__logo"
     LOG_OUT = By.XPATH, "//button[text() = 'Выход']" #Кнопка Выход из профиля
     BREAD_SECTION = By.XPATH, "//span[text() = 'Булки']" #Раздел Булки
-    BREAD = By.XPATH, "//p[text() = 'Флюоресцентная булка R2-D3']" #Флюоресцентная булка в разделе Булки
+    SELECTED_SECTION = By.XPATH, "[contains(@class, 'current')]" #Выбранный раздел в Конструкторе
     SAUCES_SECTION = By.XPATH, "//span[text() = 'Соусы']" #Раздел Соусы
-    SAUCES = By.XPATH, "//p[text() = 'Соус традиционный галактический']" #Соус в разделе Соусы
     FILLING_SECTION = By.XPATH, "//span[text() = 'Начинки']" #Раздел Начинки
-    FILLING = By.XPATH, "//p[text() = 'Сыр с астероидной плесенью']" #Сыр в разделе Начинки
+
