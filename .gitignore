@@ -1,0 +1,24 @@
+
+*# Игнорирование лог-файлов
+*.log
+
+
+.idea/
+
+
+node_modules/
+
+
+/build/
+/out/
+/bin/
+*.o
+*.exe
+
+
+.env
+
+
+.DS_Store
+Thumbs.db
+
